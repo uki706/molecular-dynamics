@@ -27,19 +27,3 @@ This repository includes two main source files:
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-You need a C++ compiler, such as `g++`.
-
-### Compilation
-
-Open your terminal, navigate to the repository folder, and compile the source files using the following commands:
-
-```bash
-# Compile the NVE simulation
-g++ -o md_nve md_NVE.cpp -O3 -std=c++11
-
-# Compile the NVT simulation
-g++ -o md_nvt md_NVT.cpp -O3 -std=c++11
